@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> Should render the heading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #06092b;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.c1 {
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.c2 {
+  padding: 1rem;
+  height: 100%;
+}
+
+.c3 {
+  border-radius: 0 0 20px 20px;
+  font-size: 1rem;
+}
+
+<main
+  class="c0"
+>
+  <img
+    alt="Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops"
+    class="c1"
+    src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+  />
+  <article
+    class="c2"
+  >
+    <h3>
+      Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops
+    </h3>
+    <p>
+      Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday
+    </p>
+    <h3>
+      R$
+      109.95
+    </h3>
+  </article>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-contained c3 MuiButton-containedPrimary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Adicionar no carrinho
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</main>
+`;
