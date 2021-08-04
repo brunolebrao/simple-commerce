@@ -19,7 +19,6 @@ const Home = () => {
   const [cartOpen, setCartOpen] = useState<boolean>(false)
   const [cartItems, setCartItems] = useState<ProductTypes[]>([])
   const { data, isLoading, error } = useQuery('products', getProducts)
-  console.log('%c⧭', 'color: #d90000', data)
 
   const getTotalItems = (items: ProductTypes[]) => {
     handleSetLocalStorage(items)
