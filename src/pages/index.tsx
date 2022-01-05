@@ -2,7 +2,7 @@ import { CircularProgress } from '@material-ui/core'
 import { useQuery } from 'react-query'
 import { getProducts } from 'services/productsApi'
 const Home = () => {
-  const { data, isLoading, error } = useQuery('products', getProducts)
+  const { data, isLoading } = useQuery('products', getProducts)
   return (
     <>
       <h1>Hello Cris</h1>
